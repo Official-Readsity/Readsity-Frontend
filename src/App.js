@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Offer from './components/Offer';
+import BestSellers from './components/BestSellers';
+import Authors from './components/Authors';
+import Footer from './components/Footer';
+import JsonData from "./data/data.json";
+import { useEffect, useState } from 'react';
 
 function App() {
+  const [landingPageData, setLandingPageData] = useState({});
+  useEffect(() => {
+    setLandingPageData(JsonData);
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar/>
+      <Hero data={landingPageData.Hero}/>
+      <Offer data={landingPageData.Offer}/>
+      <BestSellers data={landingPageData.BestSellers}/>
+      <Authors data={landingPageData.Authors}/>
+      <Footer/>
+    </>
   );
 }
 
