@@ -92,8 +92,10 @@ const Footer = () => {
       <div className="footer-container">
         <div className="col-1">
           <h3>Get our apps free</h3>
-          <img src={appstore} alt={"appstore"} />
-          <img src={googleplay} alt={"googleplay"} />
+          <div className="stores">
+            <img src={appstore} alt={"appstore"} />
+            <img src={googleplay} alt={"googleplay"} />
+          </div>
         </div>
         <div className="footer-menus">
           <div className="col-2">

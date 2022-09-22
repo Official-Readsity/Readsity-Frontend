@@ -29,7 +29,12 @@
 
 .col-1 img{
     margin: 23px 0px;
-    width: 55%;
+    width: 40%;
+    margin-right: 30px;
+}
+
+.stores{
+    display: flex;
 }
 
 .footer-menus{
@@ -152,6 +157,10 @@
 
     .col-1 img{
         margin: 23px 0px;
+    }
+
+    .stores{
+        display: block;
     }
 
     .col-2{
