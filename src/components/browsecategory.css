@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+.browsecategory {
+    background: #a35ec3;
+    padding: 20px 20px 8px;
+}
+.explore {
+    width: 100%;
+    margin: auto;
+}
+.explore > h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 123%;
+    margin-top: 50px;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+.explore > button {
+    background-color: #fff;
+    font-family: 'Lato';
+    height: 50px;
+    width: 250px;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    color: #421956;
+}
+.pictures {
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    margin-left: -15px;  
+}
+.country-img {
+    width: 350px;
+    height: 400px;
+    margin-right: -220px;
+    margin-top: 20px;
+}
+.george-img {
+    width: 250px;
+    height: 460px;
+    z-index: 1;
+}
+.simplicity-img {
+    width: 300px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: -230px;
+}
+
+@media(min-width: 760px){
+   .browsecategory {
+       display: block;
+       background: #a35ec3;
+       padding: 20px 80px 8px;
+   }
+   .explore {
+       width: 100%;
+       margin: auto;
+   }
+   .pictures {
+       display: flex;
+       width: 100%;
+       justify-content: center;
+       
+   }
+   .country-img {
+       width: 440px;
+       height: 480px;
+       margin-right: -200px;
+       margin-top: 20px;
+   }
+
+   .george-img {
+       width: 440px;
+       height: 540px;
+       z-index: 1;
+   }
+
+   .simplicity-img {
+       width: 440px;
+       height: 430px;
+       margin-top: 50px;
+       margin-left: -200px;
+   }
+}
+@media(min-width: 1000px) {
+    .browsecategory {
+        display: flex;
+        padding: 30px 5px 0px 8px;
+    }
+    .explore {
+        width: 40%;
+        margin: 15px;
+    }
+    .explore>h2 {
+        font-size: 55px;
+        margin-top: 100px;
+    }
+    .explore>button {
+        height: 70px;
+        width: 400px;
+        font-size: 30px;
+        margin: 10px 0;
+        border-radius: 10px;
+    }
+    .pictures {
+        width: 45%;    
+    }
+    
+}
+

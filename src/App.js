@@ -19,6 +19,7 @@ function App() {
       <Hero data={landingPageData.Hero} />
       <Offer data={landingPageData.Offer} />
       <BestSellers data={landingPageData.BestSellers} />
+      <BrowseCategory />
       <Authors data={landingPageData.Authors} />
       <Newsletter/>
       <Footer />
