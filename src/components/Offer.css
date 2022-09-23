@@ -26,10 +26,6 @@ img {
     align-items: center;
 }
 
-/* .column + .column {
-    margin-left: 5em;
-} */
-
 .offer_left {
     width: 40%;
 }
@@ -63,6 +59,19 @@ img {
     font-weight: 500;
     color: #A35EC3;
     fill: solid;
+}
+
+.reverse_container {
+    flex-direction: row-reverse;
+    margin-bottom: 1em;
+}
+
+.left_reverse {
+    width: 58%;
+}
+
+.right_reverse {
+    width: 35%;
 }
 
 
