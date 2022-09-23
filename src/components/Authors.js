@@ -30,7 +30,7 @@ const Authors = (props) => {
         <section className="best-sellers-container text-center">
           <div>
             <p className="text-dark-purple font-bold text-5xl p-5 ">
-              BEST SELLING AUTORS
+              BEST SELLING AUTHORS
             </p>
             <div className="flex  ">
               {authors.map((author) => (

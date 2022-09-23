@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Offer from "./components/Offer";
 import BestSellers from "./components/BestSellers";
+import BrowseCategory from "./components/BrowseCategory";
 import Authors from "./components/Authors";
 import Footer from "./components/Footer";
 import JsonData from "./data/data.json";
