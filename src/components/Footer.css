@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.footer{
+    width: 100%;
+    height: 100%;
+    background: #A35EC3;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    padding: 15px; 
+}
+
+.footer-container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px 0px;
+}
+
+.col-1{
+    width: 100%;
+}
+
+.col-1 h3{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.col-1 img{
+    margin: 23px 0px;
+    width: 40%;
+    margin-right: 30px;
+}
+
+.stores{
+    display: flex;
+}
+
+.footer-menus{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.5rem;
+}
+
+.col-2 h2{
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.col-2 ul li a{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.col-3 h2{
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.col-3 ul li{
+    display: flex;
+    align-items: center;
+}
+
+.col-3 ul li img{
+    width: 20px;
+    height: 20px;
+}
+
+.col-3 ul li a{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-left: 6px;
+}
+
+.col-4 h2{
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.col-4 ul li{
+    margin-bottom: 7px;
+}
+
+.col-4 ul li a{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.col-5 h2{
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.col-5 ul li a{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+} 
+
+@media(min-width: 760px){
+    .footer{
+        padding: 32px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer-container{
+        grid-template-columns: 1fr 1fr;
+        margin-top: 128px;
+        margin-bottom: 79px;
+        width: 100%;
+    }
+
+    .footer-menus{
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+        margin-left: 40px;
+    }
+
+    .col-1{
+        width: 265px;
+    }
+
+    .col-1 img{
+        width: 90%;
+    }
+
+    .col-1 h3{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38px;
+    }
+
+    .col-1 img{
+        margin: 23px 0px;
+    }
+
+    .stores{
+        display: block;
+    }
+
+    .col-2{
+        width: 140px;
+    }
+
+    .col-2 h2{
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 49px;
+        letter-spacing: 0.01em;
+        text-align: left;
+    }
+
+    .col-2 ul li{
+        margin: 20px 0px;
+    }
+
+    .col-2 ul li a{
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0.01em;
+        text-align: left;
+    }
+
+    .col-3{
+        width: 187px;
+    }
+
+    .col-3 h2{
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 49px;
+        letter-spacing: 0.01em;
+        text-align: left;
+    }
+
+    .col-3 ul li{
+        margin: 20px 0px;
+        display: flex;
+    }
+
+    .col-3 ul li a{
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        margin-left: 6px;
+    }
+
+    .col-4{
+        width: 231px;
+    }
+
+    .col-4 h2{
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 49px;
+        letter-spacing: 0.01em;
+        text-align: left;
+    }
+
+    .col-4 ul li{
+        margin: 20px 0px;
+    }
+
+    .col-4 ul li a{
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0.01em;
+        text-align: left;
+    }
+
+    .col-5{
+        width: 283px;
+    }
+
+    .col-5 h2{
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 49px;
+        letter-spacing: 0.01em;
+        text-align: left;
+    }
+
+    .col-5 ul li{
+        margin: 20px 0px;
+    }
+
+    .col-5 ul li a{
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0.01em;
+        text-align: left;
+    } 
+}
+
+@media(min-width: 1000px){
+    .footer-menus{
+        grid-template-columns: auto auto auto;
+        gap: 1rem;
+    }
+}
+
+@media(min-width: 1200px){
+    .footer-menus{
+        grid-template-columns: auto auto auto auto;
+        gap: 3rem;
+    }
+}

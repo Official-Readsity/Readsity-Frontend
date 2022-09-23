@@ -1,0 +1,12 @@
+.btn {
+  width: auto;
+  padding: 10px 30px;
+  border-radius: 8px;
+  color: #ffffff;
+  background: #421956;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
