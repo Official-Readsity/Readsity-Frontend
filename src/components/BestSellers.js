@@ -1,6 +1,6 @@
 import React from 'react'
 
-const BestSellers = (props) => {
+const BestSellers = () => {
   return (
     <div>BestSellers</div>
   )
