@@ -17,12 +17,28 @@
     margin: 20px 0px;
 }
 
+.footer h2{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.footer ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    text-align: left;    
+}
+
 .col-1{
     width: 100%;
 }
 
 .col-1 h3{
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 700;
     line-height: 38px;
 }
@@ -43,30 +59,6 @@
     gap: 1.5rem;
 }
 
-.col-2 h2{
-    font-size: 23px;
-    font-weight: 600;
-    line-height: 49px;
-    letter-spacing: 0.01em;
-    text-align: left;
-}
-
-.col-2 ul li a{
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 38px;
-    letter-spacing: 0.01em;
-    text-align: left;
-}
-
-.col-3 h2{
-    font-size: 23px;
-    font-weight: 600;
-    line-height: 49px;
-    letter-spacing: 0.01em;
-    text-align: left;
-}
-
 .col-3 ul li{
     display: flex;
     align-items: center;
@@ -78,48 +70,13 @@
 }
 
 .col-3 ul li a{
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 38px;
-    letter-spacing: 0.01em;
-    text-align: left;
     margin-left: 6px;
-}
-
-.col-4 h2{
-    font-size: 23px;
-    font-weight: 600;
-    line-height: 49px;
-    letter-spacing: 0.01em;
-    text-align: left;
 }
 
 .col-4 ul li{
     margin-bottom: 7px;
 }
 
-.col-4 ul li a{
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.01em;
-    text-align: left;
-}
-
-.col-5 h2{
-    font-size: 23px;
-    font-weight: 600;
-    line-height: 49px;
-    letter-spacing: 0.01em;
-    text-align: left;
-}
-
-.col-5 ul li a{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 38px;
-    text-align: left;
-} 
 
 @media(min-width: 760px){
     .footer{
@@ -141,6 +98,23 @@
         margin-left: 40px;
     }
 
+    .footer h2{
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 49px;
+        letter-spacing: 0.01em;
+        text-align: left;
+    }
+    
+    .footer ul li a{ 
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0.01em;
+        text-align: left;   
+    }
+    
+
     .col-1{
         width: 265px;
     }
@@ -150,7 +124,7 @@
     }
 
     .col-1 h3{
-        font-size: 32px;
+        font-size: 28px;
         font-weight: 700;
         line-height: 38px;
     }
@@ -167,36 +141,12 @@
         width: 140px;
     }
 
-    .col-2 h2{
-        font-size: 40px;
-        font-weight: 600;
-        line-height: 49px;
-        letter-spacing: 0.01em;
-        text-align: left;
-    }
-
     .col-2 ul li{
         margin: 20px 0px;
     }
 
-    .col-2 ul li a{
-        font-size: 25px;
-        font-weight: 400;
-        line-height: 38px;
-        letter-spacing: 0.01em;
-        text-align: left;
-    }
-
     .col-3{
         width: 187px;
-    }
-
-    .col-3 h2{
-        font-size: 40px;
-        font-weight: 600;
-        line-height: 49px;
-        letter-spacing: 0.01em;
-        text-align: left;
     }
 
     .col-3 ul li{
@@ -205,11 +155,6 @@
     }
 
     .col-3 ul li a{
-        font-size: 25px;
-        font-weight: 400;
-        line-height: 38px;
-        letter-spacing: 0.01em;
-        text-align: left;
         margin-left: 6px;
     }
 
@@ -217,49 +162,19 @@
         width: 231px;
     }
 
-    .col-4 h2{
-        font-size: 40px;
-        font-weight: 600;
-        line-height: 49px;
-        letter-spacing: 0.01em;
-        text-align: left;
-    }
-
     .col-4 ul li{
         margin: 20px 0px;
     }
 
-    .col-4 ul li a{
-        font-size: 25px;
-        font-weight: 400;
-        line-height: 38px;
-        letter-spacing: 0.01em;
-        text-align: left;
-    }
 
     .col-5{
         width: 283px;
-    }
-
-    .col-5 h2{
-        font-size: 40px;
-        font-weight: 600;
-        line-height: 49px;
-        letter-spacing: 0.01em;
-        text-align: left;
     }
 
     .col-5 ul li{
         margin: 20px 0px;
     }
 
-    .col-5 ul li a{
-        font-size: 25px;
-        font-weight: 400;
-        line-height: 38px;
-        letter-spacing: 0.01em;
-        text-align: left;
-    } 
 }
 
 @media(min-width: 1000px){
