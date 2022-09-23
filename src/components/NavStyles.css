@@ -1,0 +1,77 @@
+.header{
+    padding: 1rem 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* position: fixed;
+    z-index: 10; */
+}
+
+.logo{
+    height: 2rem;
+    padding: 0 1rem;
+}
+
+.navig{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navi{
+    display: flex;
+}
+
+.navi li{
+    padding: 0 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.navi li:hover{
+    color: #A35EC3;
+}
+
+.cta{
+    display: flex;
+}
+
+.cta button{
+    margin-right: 2rem;
+    font-size: 16px;
+    line-height: 19px;
+    height: 44px;
+    border-radius: 4px;    
+}
+
+.cta .signUp{    
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 162px;
+    background: #421956;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cta .signUp:hover{
+    color: #421956;
+    background: #FFFFFF;
+    border: 1px solid #A35EC3;
+
+}
+
+.cta .signIn{  
+    font-family: 'Inter';
+    font-weight: 500;  
+    color: #A35EC3; 
+    width: 110px;
+    border: 1px solid #A35EC3;
+}
+.cta .signIn:hover{
+    color: #FFFFFF;
+    background: #421956;
+
+}
