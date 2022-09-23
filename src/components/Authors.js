@@ -42,7 +42,6 @@ const Authors = (props) => {
             </div>
           </div>
         </section>
-        <div>Newsletter</div>
       </section>
     </>
   );

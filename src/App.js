@@ -6,6 +6,7 @@ import Authors from "./components/Authors";
 import Footer from "./components/Footer";
 import JsonData from "./data/data.json";
 import { useEffect, useState } from "react";
+import Newsletter from "./components/Newsletter";
 
 function App() {
   const [landingPageData, setLandingPageData] = useState({});
@@ -18,7 +19,9 @@ function App() {
       <Hero data={landingPageData.Hero} />
       <Offer data={landingPageData.Offer} />
       <BestSellers data={landingPageData.BestSellers} />
+      <BrowseCategory />
       <Authors data={landingPageData.Authors} />
+      <Newsletter/>
       <Footer />
     </>
   );
