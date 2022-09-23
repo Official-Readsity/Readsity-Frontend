@@ -32,7 +32,7 @@ const Authors = (props) => {
             <p className="text-dark-purple font-bold text-5xl p-5 ">
               BEST SELLING AUTORS
             </p>
-            <div className="flex  ">
+            <div className="flex justify-center ">
               {authors.map((author) => (
                 <AuthorsCard
                   author_name={author.author_name}

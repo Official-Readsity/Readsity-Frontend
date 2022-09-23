@@ -2,7 +2,7 @@ import React from 'react'
 
 const AuthorsCard = (props) => {
   return (
-    <div className="bg-white drop-shadow-md m-5 h-{579px} p-8 ">
+    <div className="bg-white drop-shadow-xl m-5 h-{579px} p-8 w-2/5 ">
       <img
         src={props.author_image}
         alt="author"
