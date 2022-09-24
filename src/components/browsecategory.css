@@ -4,6 +4,13 @@
     background: #a35ec3;
     padding: 20px 20px 8px;
 }
+
+/* .browse_overall {
+    width: 80%;
+    max-width: 1128px;
+    margin: 0 auto;
+} */
+
 .explore {
     width: 100%;
     margin: auto;
@@ -29,7 +36,7 @@
     border-radius: 10px;
     color: #421956;
 }
-.pictures {
+.browse_overall .pictures {
     display: flex;
     width: 95%;
     justify-content: center;
