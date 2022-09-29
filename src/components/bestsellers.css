@@ -1,3 +1,7 @@
+.bestsellers {
+  margin: 30px auto;
+}
+
 .bestsellers-topic {
   font-style: normal;
   font-weight: 700;
@@ -16,8 +20,8 @@
 .card {
   display: flex;
   flex-direction: column;
-  width: 300px;
-  height: 450px;
+  width: 260px;
+  height: 410px;
   background-color: #fff;
   align-items: center;
   margin: 5px;
