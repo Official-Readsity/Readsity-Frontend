@@ -29,10 +29,11 @@ const Authors = (props) => {
       <section>
         <section className="best-sellers-container text-center">
           <div>
-            <p className="text-dark-purple font-bold text-5xl p-5 ">
+            <p className=" text-dark-purple font-bold text-3xl p-5  md:text-5xl">
               BEST SELLING AUTHORS
             </p>
-            <div className="flex justify-center ">
+            <div className=" flex flex-col items-center md:flex-row">
+              {/* flex justify-center */}
               {authors.map((author) => (
                 <AuthorsCard
                   author_name={author.author_name}
