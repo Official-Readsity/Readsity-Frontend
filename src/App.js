@@ -9,7 +9,6 @@ import Footer from "./components/Footer";
 import JsonData from "./data/data.json";
 import { useEffect, useState } from "react";
 
-
 function App() {
   const [landingPageData, setLandingPageData] = useState({});
   useEffect(() => {
@@ -19,12 +18,12 @@ function App() {
     <>
       <Navbar />
       <Hero data={landingPageData.Hero} />
-      <Offer data={landingPageData.Offer} />
+      {/* <Offer data={landingPageData.Offer} />
       <BestSellers data={landingPageData.BestSellers} />
       <BrowseCategory/>
       <Authors data={landingPageData.Authors} />
       <Newsletter/>
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
