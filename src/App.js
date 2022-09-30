@@ -18,12 +18,12 @@ function App() {
     <>
       <Navbar />
       <Hero data={landingPageData.Hero} />
-      {/* <Offer data={landingPageData.Offer} />
+      <Offer data={landingPageData.Offer} />
       <BestSellers data={landingPageData.BestSellers} />
-      <BrowseCategory/>
+      <BrowseCategory />
       <Authors data={landingPageData.Authors} />
-      <Newsletter/>
-      <Footer /> */}
+      <Newsletter />
+      <Footer />
     </>
   );
 }
