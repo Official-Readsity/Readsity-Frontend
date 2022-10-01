@@ -10,13 +10,12 @@ const Newsletter = () => {
 
         <div className="Newsletter-right-section  py-10 md:block md:w-4/6  md:pr-20 md:pb-10">
           <div>
-            <h1 className="text-2xl font-bold text-dark-purple py-5 md:text-5xl">
+            <h1 className="text-2xl font-bold text-dark-purple py-5 font-playfair md:text-5xl">
               Subscribe to our Newsletter
             </h1>
-            <p className="text-dark-purple pb-4 hidden md:block">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut felis
-              malesuada ornare aenean. Ac mi facilisis pretium sed at quisque
-              sed. Bibendum sem consequat consectetur id convallis posuere e
+            <p className="text-dark-purple pb-4 hidden font-lora md:block">
+              Recieve new articles and resources on our Books directly on your
+              inbox Fill your email below and suscribe to our Newsletter today.
             </p>
           </div>
 
