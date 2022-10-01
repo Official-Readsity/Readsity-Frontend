@@ -25,38 +25,34 @@ const Offer = (props) => {
 							<p className="offer_text">
 								At Readsity,our customers buy directly from the Authors without
 								going through a third part members of wholesalers and
-								retailkers.
-							</p>
-							<p className="offer_text">
-								Customers have contol over pricing, costs as well as discounts.
-								They get instant feedback.
+								retailkers. Customers have contol over pricing, costs as well as
+								discounts. They get instant feedback.
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div className="offer_container ">
-				<div className="offer_content reverse_container">
-					<div className="offer_left right_reverse">
-						<img src={priceImage} alt="priceImage" />
-					</div>
-
-					<div className="offer_right left_reverse">
-						<div className="offer_subheading">
-							<p className="offer_subtitle">PRICE GUARANTEEE FOR AUTHORS</p>
+			<div className="bottom-offer">
+				<div className="offer_container">
+					<div className="offer_content reverse_container">
+						<div className="offer_left right_reverse">
+							<img src={priceImage} alt="priceImage" />
 						</div>
 
-						<div className="offer_context">
-							<p className="offer_text">
-								At Readsity,our customers buy directly from the Authors without
-								going through a third part members of wholesalers and
-								retailkers.
-							</p>
-							<p className="offer_text">
-								Customers have contol over pricing, costs as well as discounts.
-								They get instant feedback.
-							</p>
+						<div className="left_reverse">
+							<div className="offer_subheading">
+								<p className="offer_subtitle">PRICE GUARANTEEE FOR AUTHORS</p>
+							</div>
+
+							<div className="offer_context">
+								<p className="offer_text">
+									At Readsity,our customers buy directly from the Authors
+									without going through a third part members of wholesalers and
+									retailkers. Customers have contol over pricing, costs as well
+									as discounts. They get instant feedback.
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
