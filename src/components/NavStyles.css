@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+
+
 .header{
     position: fixed;
     z-index: 10;
@@ -6,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 3rem;
+    height: 4rem;
 }
 
 .header-bg{
@@ -30,6 +34,7 @@
 
 .navi li{
     /* padding: 0 1rem; */
+    font-family: 'Lora';
     font-size: 1.2rem;
     font-weight: 500;
     font-style: normal;
@@ -75,7 +80,7 @@
 }
 
 .cta .signIn{  
-    font-family: 'Inter';
+    font-family: 'Lora';
     font-weight: 500;  
     color: #A35EC3;
     padding: 0em 1.5em;
