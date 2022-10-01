@@ -2,15 +2,28 @@ import React, { useState } from 'react'
 import "./NavStyles.css";
 import logo from "../assets/readsitynav.png";
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { useEffect } from 'react';
 
 const Navbar = (props) => {
+  const [color, setColor] = useState(false);
+  
+	const changeColor = () => {
+        if (window.scrollY >= 1) {
+            setColor(true);
+        } else {
+            setColor(false);
+        }
+    };
+
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   
+  useEffect(() => {
+	window.addEventListener("scroll", changeColor);
+  }, [])
+  
   return (
-		<div className="navbar_section">
-			<div className="navbar_container">
-				<div className="header">
+		<div className={color ? "header header-bg" : "header"}>
 					<div className="logodiv">
 						<img className="logo" src={logo} alt="main_logo" />
 					</div>
@@ -37,8 +50,6 @@ const Navbar = (props) => {
                 (<FaBars className="Ham" size={20}/> ): 
                 (<FaTimes className="xIcon" size={20}/>) }
             </div>
-				</div>
-			</div>
 		</div>
 	);
 }

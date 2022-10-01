@@ -1,18 +1,18 @@
-.navbar_container {
-    width: 95%;
-    max-width: 1128px;
+.header{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
     margin: 0 auto;
-}
-
-.navbar_container .header{
-    align-items: center;
     display: flex;
-    justify-content: space-between;
-    margin: 1.5em 0 .5em;
-    /* position: fixed;
-    z-index: 10; */
+    align-items: center;
+    justify-content: space-around;
+    height: 3rem;
 }
 
+.header-bg{
+    background-color: #FFFFFF;
+    transition: 0.5s;
+}
 
 .logo{
     min-width: 154px;
@@ -22,14 +22,10 @@
 .navi{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
-
-.navi{
-    display: flex;
 }
 .navig{
     display: flex;
+    align-items: center;
 }
 
 .navi li{
@@ -43,8 +39,8 @@
 }
 
 .nav_items + .nav_items{
-    margin-left: 1.5em;
-    margin-right: 1.5em;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .navi li:hover{
@@ -59,7 +55,7 @@
     /* margin-right: 2rem; */
     font-size: 16px;
     /* line-height: 19px; */
-    /* height: 44px; */
+    height: 44px;
     border-radius: 7px;    
 }
 
@@ -91,7 +87,7 @@
     background: #421956;
 }
 
-.action_button + .action_button {
+.action_button {
     margin-left: 2em;
 }
 
@@ -104,7 +100,7 @@
 .hamburger svg{
     height: 2rem;
     margin-right: 1rem;
-    color:var(--accent);
+    color:#421956;
     transition: transform .1s;
 }
 .hamburger svg:hover{
@@ -112,14 +108,17 @@
 }
 
  @media screen and (max-width: 670px) {
-    
+    .header{
+        height: 3rem;
+        justify-content: space-between;
+    }
     .navi{
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 50vh;
-        background: var(--background);
+        height: 60vh;
+        background: #FFFFFF;
         position: absolute;
         top: 0;
         left: -100%;
@@ -128,10 +127,18 @@
     } 
     
     .navig{
-        flex-direction: column;}
-        
-    .cta .action_button{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+        
+    .cta {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .action_button{
         margin: 1rem;
     }
     .navi.active {
