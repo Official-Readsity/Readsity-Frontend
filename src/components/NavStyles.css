@@ -112,7 +112,7 @@
     transform: scale(1.1);
 }
 
- @media screen and (max-width: 670px) {
+ @media screen and (max-width: 900px) {
     .header{
         height: 3rem;
         justify-content: space-between;
@@ -120,9 +120,8 @@
     .navi{
         flex-direction: column;
         justify-content: center;
-        align-items: center;
         width: 100%;
-        height: 60vh;
+        height: 100vh;
         background: #FFFFFF;
         position: absolute;
         top: 0;
@@ -133,8 +132,7 @@
     
     .navig{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        text-align: right;
     }
         
     .cta {
@@ -148,6 +146,10 @@
     }
     .navi.active {
         left: 0;
+    }
+    .navi.active::after{
+        width: 100%;
+        background: #A35EC3;
     }
 
     li{
