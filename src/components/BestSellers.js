@@ -1,7 +1,7 @@
 import React from "react";
-import thinking from "../assets/bestsellers/thinking.png";
-import innovation from "../assets/bestsellers/innovation.png";
-import resistance from "../assets/bestsellers/resistance.png";
+import rhimes from "../assets/bestsellers/rhimes.png";
+import happiness from "../assets/bestsellers/happiness.png";
+import mocking from "../assets/bestsellers/mocking.png";
 import BestsellersCard from "./BestsellersCard";
 import "./bestsellers.css";
 
@@ -9,21 +9,27 @@ const BestSellers = () => {
   const bestsellers = [
     {
       id: 1,
-      img: thinking,
-      title: "Thinking,Fast and Slow",
-      author: "Daniel Kahnwman",
+      img: rhimes,
+      title: "The rhimes in me",
+      author: "Gridhar",
+      background: "blue",
+      desc: "cardimgone",
     },
     {
       id: 2,
-      img: innovation,
-      title: "How Innovation Works",
-      author: "Matt Ridley",
+      img: happiness,
+      title: "Make your own happiness",
+      author: "Satir Noah",
+      background: "yellow",
+      desc: "cardimg",
     },
     {
       id: 3,
-      img: resistance,
-      title: "Beautiful Resistance",
-      author: "Jon Tyson",
+      img: mocking,
+      title: "To kill a mocking bird",
+      author: "Harper Lee",
+      background: "blue",
+      desc: "cardimg",
     },
   ];
   return (
