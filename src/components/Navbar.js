@@ -3,6 +3,7 @@ import "./NavStyles.css";
 import logo from "../assets/readsitynav.png";
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { useEffect } from 'react';
+import { NavLink } from "react-router-dom";
 
 const Navbar = (props) => {
   const [color, setColor] = useState(false);
@@ -17,6 +18,7 @@ const Navbar = (props) => {
 
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
+  const handleClicker = () => setClick(false);
   
   useEffect(() => {
 	window.addEventListener("scroll", changeColor);
@@ -30,11 +32,11 @@ const Navbar = (props) => {
 
 					<div className={click ? "navi active":"navi"}>
 						<ul className="navig">
-							<li className="nav_items">Home</li>
-							<li className="nav_items">Services</li>
-							<li className="nav_items">Blogs</li>
-							<li className="nav_items">Books</li>
-							<li className="nav_items">Contact us</li>
+							<li className="nav_items" onClick={handleClicker}><NavLink to="/" >Home</NavLink></li>
+							<li className="nav_items" onClick={handleClicker}><NavLink to="/Services" >Services</NavLink></li>
+							<li className="nav_items" onClick={handleClicker}><NavLink to="/Blogs" >Blogs</NavLink></li>
+							<li className="nav_items" onClick={handleClicker}><NavLink to="/Books" >Books</NavLink></li>
+							<li className="nav_items" onClick={handleClicker}><NavLink to="/Contact" >Contact us</NavLink></li>
 
 					<div className="cta">
 						<button className="signUp action_button">Get Started</button>

@@ -1,31 +1,24 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Offer from "./components/Offer";
-import BestSellers from "./components/BestSellers";
-import BrowseCategory from "./components/BrowseCategory";
-import Authors from "./components/Authors";
-import Newsletter from "./components/Newsletter";
-import Footer from "./components/Footer";
-import JsonData from "./data/data.json";
-import { useEffect, useState } from "react";
+import Home from "./routes/Home";
+import Blogs from "./routes/Blogs";
+import Services from "./routes/Services";
+import Books from "./routes/Books";
+import Contact from "./routes/Contact";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
-  const [landingPageData, setLandingPageData] = useState({});
-  useEffect(() => {
-    setLandingPageData(JsonData);
-  }, []);
   return (
+    
     <>
-      <Navbar />
-      <Hero data={landingPageData.Hero} />
-      <Offer data={landingPageData.Offer} />
-      <BestSellers data={landingPageData.BestSellers} />
-      <BrowseCategory />
-      <Authors data={landingPageData.Authors} />
-      <Newsletter />
-      <Footer />
+      <Routes basename="/readsity">
+        <Route path="/" element={<Home/>} />
+        <Route path="/Services" element={<Services/>} />
+        <Route path="/Blogs" element={<Blogs/>} />
+        <Route path="/Books" element={<Books/>} />
+        <Route path="/Contact" element={<Contact/>} />
+     </Routes>
     </>
   );
 }
+
 
 export default App;
