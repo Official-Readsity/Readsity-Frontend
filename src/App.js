@@ -7,16 +7,16 @@ import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <Routes basename="/readsity">
-        <Route path="/" element={<Home />} />
-        <Route path="/Services" element={<Services />} />
-        <Route path="/Blogs" element={<Blogs />} />
-        <Route path="/Books" element={<Books />} />
-        <Route path="/Contact" element={<Contact />} />
-      </Routes>
-    </>
-  );
+		<>
+			<Routes basename="/readsity">
+				<Route path="/" element={<Home />} />
+				<Route path="/Services" element={<Services />} />
+				<Route path="/Blogs" element={<Blogs />} />
+				<Route path="/Books" element={<Books />} />
+				<Route path="/Contact" element={<Contact />} />
+			</Routes>
+		</>
+	);
 }
 
 export default App;

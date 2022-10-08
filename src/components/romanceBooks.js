@@ -36,8 +36,8 @@ const romanceBooks = () => {
                     Books.map(card => {
                         return(
                             <div key={card.id}>
-                                {card.Romance.map(data => (
-                                    <div key={card.id}>
+                                {card.Romance && card.Romance.map(data => (
+                                    <div key={data.id}>
                                         <div>
                                             <img src={data.bookImage} alt="different type of books" />
                                         </div>                                    
