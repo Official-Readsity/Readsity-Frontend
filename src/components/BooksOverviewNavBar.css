@@ -1,0 +1,64 @@
+.book_overview_navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.book_overview_logo_search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.book_overview_wishlist_cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 2rem;
+}
+
+.book_overview_wishlist_cart > div > img {
+  width: 50%;
+  margin: auto;
+}
+
+.book_search_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 600px;
+}
+
+.book_search_input {
+  background: #efebeb;
+  border: 1px solid #d151b7;
+  border-radius: 15px;
+  position: relative;
+  padding: 10px;
+}
+
+.btn-search {
+  position: relative;
+  left: -7.2%;
+  height: 100%;
+}
+
+.book_create_account {
+  text-align: center;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.book_create_account p {
+  color: #d151b7;
+}
+
+.btn_create_account {
+  margin-top: 25px;
+  padding: 10px 30px;
+  background: #d151b7;
+  color: #fff;
+  min-width: 250px;
+}
