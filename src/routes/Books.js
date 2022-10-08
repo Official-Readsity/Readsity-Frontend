@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import BooksOverviewNavBar from "../components/BooksOverviewNavBar";
+import "./Books.css";
 
 const Books = () => {
   return (
-    <div>Books</div>
-  )
-}
+    <>
+      <BooksOverviewNavBar />
+    </>
+  );
+};
 
-export default Books
+export default Books;
