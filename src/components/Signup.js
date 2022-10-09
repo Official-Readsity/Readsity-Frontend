@@ -67,10 +67,11 @@ export default function Signup({modall, modalClickk}) {
                         onChange={switchUp}
                         name="okayToEmail"
                         checked={holdValues.okayToEmail}
-                        
                     />
                     <label htmlFor="okayToEmail">I want to join the newsletter</label>
                 </div>
+
+                
                 <button 
                     className="form--submit"
                 >

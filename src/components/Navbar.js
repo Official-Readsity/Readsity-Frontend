@@ -88,8 +88,8 @@ const Navbar = ({modall, modalClickk}) => {
                 (<FaBars className="Ham" size={20}/> ): 
                 (<FaTimes className="xIcon" size={20}/>) }
             </div>
-			<Signup modall = {modalUp} modalClickk = {modalUpClick}/>
-			<Signin modall = {modalIn} modalClickk = {modalInClick}/>
+			{/* <Signup modall = {modalUp} modalClickk = {modalUpClick}/>
+			<Signin modall = {modalIn} modalClickk = {modalInClick}/> */}
 		</div>
 	);
 }
