@@ -49,7 +49,10 @@ const Navbar = ({modall, modalClickk}) => {
   return (
     <div className={color ? "header header-bg" : "header"}>
       <div className="logodiv">
+		
+	  <NavLink to="/">
         <img className="logo" src={logo} alt="main_logo" />
+	  </NavLink>
       </div>
 
       <div className={click ? "navi active" : "navi"}>

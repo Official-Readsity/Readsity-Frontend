@@ -31,8 +31,8 @@ export default function Signup({modall, modalClickk}) {
     return (
         <div className={modall ? "form-container show":"form-container"}>
             <form className="form" onSubmit={handleSubmit}>
-                <img src={logo} alt="" className="logo" />
             <FaTimes onClick={modalClickk} className="xIcon" size={20}/>
+                <img src={logo} alt="" className="logo" />
                 <h1 className="title">Create an account</h1>
                 <p className="desc">Sign up to Readsity and access to unlimited books</p>
                 <input 
@@ -71,7 +71,6 @@ export default function Signup({modall, modalClickk}) {
                     />
                     <label htmlFor="okayToEmail">I want to join the newsletter</label>
                 </div>
-                <a href="" className="forgot">Forgot Password?</a>
                 <button 
                     className="form--submit"
                 >
