@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+
+.services-container{
+    background: #fff;
+    width: 100%;
+    padding: 210px 70px 241px 80px;
+}
+
+.services-container h1{
+    text-align: center;
+    color: #421956;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 86px;
+    letter-spacing: 0.01em;
+    font-family: 'Playfair Display', serif;
+}
+
+.service-summary{
+    margin-top: 193px;
+    height: 157px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.sumIconCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sumIconCard h6{
+    margin-top: 33px;
+    color: #421956;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    font-family: 'Abyssinica SIL', serif;
+}
+
+.service-content{
+    margin-top: 292px;
+}
+
+.content-flex{
+    display: flex;
+    height: 688px;
+    align-items: center;
+    margin-bottom: 241px;
+    gap: 29px;
+}
+
+.content-flex:last-child{
+    margin-bottom: 0px;
+}
+
+.content-flex.reverse{
+    flex-direction: row-reverse;
+}
+
+.content-flex > img{
+    width: 593px;
+}
+
+.left-side h2{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 86px;
+    letter-spacing: 0.01em;
+    color: #421956;
+    margin-top: 44px;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+}
+
+.left-side p{
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-top: 44px;
+    color: #A35EC3;
+    max-width: 680px;
+    font-family: 'Abyssinica SIL', serif;
+}
+
+@media(max-width: 540px){
+    .services-container{
+        padding: 210px 20px 241px 20px;
+    }
+    .service-summary{
+        flex-direction: column;
+        gap: 100px;
+        height: 100%;
+    }
+    .service-content{
+        margin-top: 192px;
+    }
+    .content-flex{
+        flex-direction: column;
+        margin-bottom: 100px;
+        height: 100%;
+    }
+    .content-flex.reverse{
+        flex-direction: column;
+    }
+    .left-side h2{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .left-side p{
+        font-size: 22px;
+        line-height: 33px;
+    }
+}

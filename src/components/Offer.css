@@ -87,6 +87,49 @@ img {
 
 
 
+@media (max-width: 768px) {
+
+    .bottom-offer {
+        margin: 3em 0;
+    }
+
+    .offer_heading {
+        text-align: center;
+    }
+
+    .offer_content {
+    display: block;
+    justify-content: unset;
+    align-items: unset;
+    }
+
+    .offer_left {
+    width: 100%;
+    margin: 0 auto;
+    }
+
+    .offer_right {
+    width: 100%;
+    display: block;
+    flex-direction: row;
+    margin-left: 0em;
+    }
+
+    .offer_subheading {
+    text-align: center;
+    margin-top: 1em;
+    }
+
+    .left_reverse {
+    width: 100%;
+    margin-right: 0em;
+    }
+
+    .right_reverse {
+    width: 100%;
+    }
+}
+
 
 
 

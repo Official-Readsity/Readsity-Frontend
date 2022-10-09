@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import "./NavStyles.css";
 import logo from "../assets/readsitynav.png";
-import { FaBars, FaTimes } from 'react-icons/fa';
-import { useEffect } from 'react';
+import { FaBars, FaTimes } from "react-icons/fa";
+import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import Signup from "../components/Signup";
 import Signin from './SignIn';
@@ -44,19 +44,31 @@ const Navbar = ({modall, modalClickk}) => {
 		window.addEventListener("scroll", changeColor);
   }, [])
   
-  return (
-		<div className={color ? "header header-bg" : "header"}>
-					<div className="logodiv">
-						<img className="logo" src={logo} alt="main_logo" />
-					</div>
 
-					<div className={click ? "navi active":"navi"}>
-						<ul className="navig">
-							<li className="nav_items" onClick={handleClicker}><NavLink to="/" >Home</NavLink></li>
-							<li className="nav_items" onClick={handleClicker}><NavLink to="/Services" >Services</NavLink></li>
-							<li className="nav_items" onClick={handleClicker}><NavLink to="/Blogs" >Blogs</NavLink></li>
-							<li className="nav_items" onClick={handleClicker}><NavLink to="/Books" >Books</NavLink></li>
-							<li className="nav_items" onClick={handleClicker}><NavLink to="/Contact" >Contact us</NavLink></li>
+
+  return (
+    <div className={color ? "header header-bg" : "header"}>
+      <div className="logodiv">
+        <img className="logo" src={logo} alt="main_logo" />
+      </div>
+
+      <div className={click ? "navi active" : "navi"}>
+        <ul className="navig">
+          <li className="nav_items" onClick={handleClicker}>
+            <NavLink to="/">Home</NavLink>
+          </li>
+          <li className="nav_items" onClick={handleClicker}>
+            <NavLink to="/Services">Services</NavLink>
+          </li>
+          <li className="nav_items" onClick={handleClicker}>
+            <NavLink to="/Blogs">Blogs</NavLink>
+          </li>
+          <li className="nav_items" onClick={handleClicker}>
+            <NavLink to="/Books">Books</NavLink>
+          </li>
+          <li className="nav_items" onClick={handleClicker}>
+            <NavLink to="/Contact">Contact us</NavLink>
+          </li>
 
 					<div className="cta">
 						<button className="signUp action_button" onClick={modalUpClick}>Get Started</button>
@@ -66,6 +78,7 @@ const Navbar = ({modall, modalClickk}) => {
           
 					</div>
 
+      
 
           <div className="hamburger" onClick={handleClick}>
                 {!click ?
@@ -78,4 +91,4 @@ const Navbar = ({modall, modalClickk}) => {
 	);
 }
 
-export default Navbar
+export default Navbar;

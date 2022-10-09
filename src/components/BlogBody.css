@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.blog-body{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-top: 60px;
+    padding: 98px 136px;
+    display: flex;
+    background: #F5F5F5;
+}
+
+.blog-body-left{
+    width: 35%;
+}
+
+.blog-body-right{
+    width: 65%;
+}
+
+.text{
+    width: 284px;
+    height: 292px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 44px 0px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 46px;
+}
+
+.text p{
+    margin-bottom: 11px;
+}
+
+.blog-socials{
+    margin-top: 113px;
+    display: flex;
+}
+
+.blog-socials img{
+    margin-right: 42px;
+}
+
+.blog-image img{
+    width: 796px;
+    height: 528px;
+}
+
+.blog-image h6{
+    text-align: center;
+    font-family: 'Baskervville', serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-top: 14px;
+}
+
+.blog-body-right h5{
+    margin-top: 14px;
+    font-family: 'Baskervville', serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.paragraph1{
+    margin: 64px 10px 0px 10px;
+    border-top: 1px solid #000;
+    padding: 64px 0px;
+}
+
+.paragraph1 h4{
+    font-family: 'Baskervville', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.paragraph1 p{
+    margin-top: 38px;
+    font-family: 'Baskervville', serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+@media(max-width: 540px){
+    .blog-body{
+        flex-direction: column;
+        padding: 98px 20px;
+    }
+    .blog-body-left{
+        width: 100%;
+    }
+    
+    .blog-body-right{
+        width: 100%;
+        margin-top: 100px;
+    }
+    .text{
+        width: 100%;
+        text-align: center;
+    }
+    .blog-socials{
+        margin-top: 50px;
+        justify-content: space-evenly;
+    }
+    .blog-image h6{
+        font-size: 18px;
+    }
+    .blog-body-right h5{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .paragraph1 h4{
+        font-size: 30px;
+    }
+    .paragraph1 p{
+        font-size: 18px;
+    }
+}
