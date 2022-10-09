@@ -4,8 +4,17 @@ import logo from "../assets/readsitynav.png";
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { useEffect } from 'react';
 import { NavLink } from "react-router-dom";
+import Signup from "../components/Signup";
+import Signin from './SignIn';
 
-const Navbar = (props) => {
+const Navbar = ({modall, modalClickk}) => {
+
+	const [modalUp, setModalUp] = useState(false);
+	
+	
+	const [modalIn, setModalIn] = useState(false);
+
+
   const [color, setColor] = useState(false);
   
 	const changeColor = () => {
@@ -15,13 +24,24 @@ const Navbar = (props) => {
             setColor(false);
         }
     };
+	
+	
+	const [click, setClick] = useState(false);
+	const handleClick = () => setClick(!click);
+	const handleClicker = () => setClick(false);
 
-  const [click, setClick] = useState(false);
-  const handleClick = () => setClick(!click);
-  const handleClicker = () => setClick(false);
-  
-  useEffect(() => {
-	window.addEventListener("scroll", changeColor);
+	const modalUpClick = () => {
+		setModalUp(!modalUp)
+		handleClicker()
+	}
+	
+	const modalInClick = () => {
+		setModalIn(!modalIn)
+	handleClicker()
+	}
+	
+	useEffect(() => {
+		window.addEventListener("scroll", changeColor);
   }, [])
   
   return (
@@ -39,8 +59,8 @@ const Navbar = (props) => {
 							<li className="nav_items" onClick={handleClicker}><NavLink to="/Contact" >Contact us</NavLink></li>
 
 					<div className="cta">
-						<button className="signUp action_button">Get Started</button>
-						<button className="signIn action_button">Sign In</button>
+						<button className="signUp action_button" onClick={modalUpClick}>Get Started</button>
+						<button className="signIn action_button"onClick={modalInClick}>Sign In</button>
 					</div>
 						</ul>
           
@@ -52,6 +72,8 @@ const Navbar = (props) => {
                 (<FaBars className="Ham" size={20}/> ): 
                 (<FaTimes className="xIcon" size={20}/>) }
             </div>
+			<Signup modall = {modalUp} modalClickk = {modalUpClick}/>
+			<Signin modall = {modalIn} modalClickk = {modalInClick}/>
 		</div>
 	);
 }
