@@ -1,0 +1,685 @@
+[
+  {
+    "allBooks": [
+      {
+        "id": "1",
+        "bookTitle": "A Christmas Carol",
+        "bookAuthor": "Charles Dickens",
+        "bookImage": "books-images/classics-one.png"
+      },
+      {
+        "id": "2",
+        "bookTitle": "A Room With a View",
+        "bookAuthor": "E.M. Forster",
+        "bookImage": "books-images/classics-two.png"
+      },
+      {
+        "id": "3",
+        "bookTitle": "Alice in Wonderland",
+        "bookAuthor": "Lewis Carroll",
+        "bookImage": "books-images/classics-three.png"
+      },
+      {
+        "id": "4",
+        "bookTitle": "Around the World ln Eighty Days",
+        "bookAuthor": "Jules Venue",
+        "bookImage": "books-images/classics-four.png"
+      },
+      {
+        "id": "5",
+        "bookTitle": "My Antonia",
+        "bookAuthor": "Willa Cather",
+        "bookImage": "books-images/classics-five.png"
+      },
+      {
+        "id": "6",
+        "bookTitle": "Night and Day",
+        "bookAuthor": "Virginia Woolf",
+        "bookImage": "books-images/classics-six.png"
+      },
+      {
+        "id": "7",
+        "bookTitle": "Pride & Preudice",
+        "bookAuthor": "Jane Austen",
+        "bookImage": "books-images/classics-seven.png"
+      },
+      {
+        "id": "8",
+        "bookTitle": "War and Peace",
+        "bookAuthor": "Led Tolstoy",
+        "bookImage": "books-images/classics-eight.png"
+      },
+      {
+        "id": "9",
+        "bookTitle": "Under Western Eyes",
+        "bookAuthor": "Joseph Conrad",
+        "bookImage": "books-images/classics-nine.png"
+      },
+      {
+        "id": "10",
+        "bookTitle": " Buy Then Build",
+        "bookAuthor": "Walker Deibel",
+        "bookImage": "books-images/entre-one.png"
+      },
+      {
+        "id": "11",
+        "bookTitle": "Girl Code",
+        "bookAuthor": "Cara Alwill L.",
+        "bookImage": "books-images/entre-two.png"
+      },
+      {
+        "id": "12",
+        "bookTitle": "Rework",
+        "bookAuthor": "David H. & Jason F.",
+        "bookImage": "books-images/entre-three.png"
+      },
+      {
+        "id": "13",
+        "bookTitle": " Rich Dad Poor Dad",
+        "bookAuthor": "Robert T Kiyosaki",
+        "bookImage": "books-images/entre-four.png"
+      },
+      {
+        "id": "14",
+        "bookTitle": " The 4-Hour Work Week",
+        "bookAuthor": "Tim Ferriss",
+        "bookImage": "books-images/entre-five.png"
+      },
+      {
+        "id": "15",
+        "bookTitle": "How Innovation Works",
+        "bookAuthor": "Matt Ridley",
+        "bookImage": "books-images/entre-six.png"
+      },
+      {
+        "id": "16",
+        "bookTitle": "The Art Of The Start",
+        "bookAuthor": "Guy Kawasaki",
+        "bookImage": "books-images/entre-seven.png"
+      },
+      {
+        "id": "17",
+        "bookTitle": "Good to Great",
+        "bookAuthor": "Jim Collins",
+        "bookImage": "books-images/entre-eight.png"
+      },
+      {
+        "id": "18",
+        "bookTitle": "The Startup Owner’s Manual",
+        "bookAuthor": "Steve B. & Bob D.",
+        "bookImage": "books-images/entre-nine.png"
+      },
+      {
+        "id": "19",
+        "bookTitle": "Along The Rio",
+        "bookAuthor": "Tracie Peterson",
+        "bookImage": "books-images/christ-one.png"
+      },
+      {
+        "id": "20",
+        "bookTitle": "A Stranger's Game",
+        "bookAuthor": "Colleen Coble",
+        "bookImage": "books-images/christ-two.png"
+      },
+      {
+        "id": "21",
+        "bookTitle": "Catching The Wind",
+        "bookAuthor": "Melanie Dobson",
+        "bookImage": "books-images/christ-three.png"
+      },
+      {
+        "id": "22",
+        "bookTitle": "Crossfire",
+        "bookAuthor": "Lynette Eason",
+        "bookImage": "books-images/christ-four.png"
+      },
+      {
+        "id": "23",
+        "bookTitle": " Mulberry Hollow",
+        "bookAuthor": "Denise Hunter",
+        "bookImage": "books-images/christ-five.png"
+      },
+      {
+        "id": "24",
+        "bookTitle": "Forgiving Paris",
+        "bookAuthor": "Karen Kingsbury",
+        "bookImage": "books-images/christ-six.png"
+      },
+      {
+        "id": "25",
+        "bookTitle": "Love Comes Softly",
+        "bookAuthor": "Janette Oke",
+        "bookImage": "books-images/christ-seven.png"
+      },
+      {
+        "id": "26",
+        "bookTitle": "Blended Quilt",
+        "bookAuthor": "Wanda & Brunstetter",
+        "bookImage": "books-images/christ-eight.png"
+      },
+      {
+        "id": "27",
+        "bookTitle": "The Chisholm Trail Bride",
+        "bookAuthor": "Kathleen Y'Barbo",
+        "bookImage": "books-images/christ-nine.png"
+      },
+
+      {
+        "id": "28",
+        "bookTitle": "Act Your Age, Eve Brown",
+        "bookAuthor": "Talia Hibbert",
+        "bookImage": "books-images/roma-one.png"
+      },
+      {
+        "id": "29",
+        "bookTitle": "Call Me By My Name",
+        "bookAuthor": "Andre Aciman",
+        "bookImage": "books-images/roma-two.png"
+      },
+      {
+        "id": "30",
+        "bookTitle": "Red White & Royal Blue",
+        "bookAuthor": "Casey McQuiston",
+        "bookImage": "books-images/roma-three.png"
+      },
+      {
+        "id": "31",
+        "bookTitle": "Love on the Brain",
+        "bookAuthor": "Ali Hazelwood",
+        "bookImage": "books-images/roma-four.png"
+      },
+      {
+        "id": "32",
+        "bookTitle": " My Antonia",
+        "bookAuthor": "Willa Cather",
+        "bookImage": "books-images/roma-five.png"
+      },
+      {
+        "id": "33",
+        "bookTitle": "Seven Days In June",
+        "bookAuthor": "Tia Williams",
+        "bookImage": "books-images/roma-six.png"
+      },
+      {
+        "id": "34",
+        "bookTitle": "Pride & Preudice",
+        "bookAuthor": "Jane Austen",
+        "bookImage": "books-images/roma-seven.png"
+      },
+      {
+        "id": "35",
+        "bookTitle": "The Notebook",
+        "bookAuthor": "Nicholas Sparks",
+        "bookImage": "books-images/roma-eight.png"
+      },
+      {
+        "id": "36",
+        "bookTitle": "The Seven Love Deception",
+        "bookAuthor": "Elena Armas",
+        "bookImage": "books-images/roma-nine.png"
+      },
+
+      {
+        "id": "37",
+        "bookTitle": "Freshwater",
+        "bookAuthor": "Akwaeke Emezi",
+        "bookImage": "books-images/fict-one.png"
+      },
+      {
+        "id": "38",
+        "bookTitle": "Half of a Yellow Sun",
+        "bookAuthor": "Chimamanda Adiche",
+        "bookImage": "books-images/fict-two.png"
+      },
+      {
+        "id": "39",
+        "bookTitle": "I Do Not Come To You By Chance",
+        "bookAuthor": "Adaobi Nwaubani",
+        "bookImage": "books-images/fict-three.png"
+      },
+      {
+        "id": "40",
+        "bookTitle": "On Black Sisters' Street",
+        "bookAuthor": "Chika Unigwe",
+        "bookImage": "books-images/fict-four.png"
+      },
+      {
+        "id": "41",
+        "bookTitle": "Things Fall Apart",
+        "bookAuthor": "Chinua Achebe",
+        "bookImage": "books-images/fict-five.png"
+      },
+      {
+        "id": "42",
+        "bookTitle": "1984",
+        "bookAuthor": "George Orwell",
+        "bookImage": "books-images/fict-six.png"
+      },
+      {
+        "id": "43",
+        "bookTitle": "The Kite Runner",
+        "bookAuthor": "Khaled Hosseini",
+        "bookImage": "books-images/fict-seven.png"
+      },
+      {
+        "id": "44",
+        "bookTitle": "Fairy Tale",
+        "bookAuthor": "Stephen King",
+        "bookImage": "books-images/fict-eight.png"
+      },
+      {
+        "id": "45",
+        "bookTitle": "To Kill A Mocking Bird",
+        "bookAuthor": "Harper Lee",
+        "bookImage": "books-images/fict-nine.png"
+      },
+
+      {
+        "id": "46",
+        "bookTitle": "The Maid",
+        "bookAuthor": "Nita Prose",
+        "bookImage": "books-images/myst-one.png"
+      },
+      {
+        "id": "47",
+        "bookTitle": "All Good People Here",
+        "bookAuthor": "Ashley Flowers",
+        "bookImage": "books-images/myst-two.png"
+      },
+      {
+        "id": "48",
+        "bookTitle": "The It Girl",
+        "bookAuthor": "Ruth Ware",
+        "bookImage": "books-images/myst-three.png"
+      },
+      {
+        "id": "49",
+        "bookTitle": "Bluebird, Bluebird",
+        "bookAuthor": "Attica Locke",
+        "bookImage": "books-images/myst-four.png"
+      },
+      {
+        "id": "50",
+        "bookTitle": "The Da Vinci Code",
+        "bookAuthor": "Dan Brown",
+        "bookImage": "books-images/myst-five.png"
+      },
+      {
+        "id": "51",
+        "bookTitle": "The Big Sleep",
+        "bookAuthor": "Raymond Chandler",
+        "bookImage": "books-images/myst-six.png"
+      },
+      {
+        "id": "52",
+        "bookTitle": "The Guest List",
+        "bookAuthor": "Lucu Foley",
+        "bookImage": "books-images/myst-seven.png"
+      },
+      {
+        "id": "53",
+        "bookTitle": "What She Found",
+        "bookAuthor": "Robert Dugoni",
+        "bookImage": "books-images/myst-eight.png"
+      },
+      {
+        "id": "54",
+        "bookTitle": "Case Histories",
+        "bookAuthor": "Kate Atkinson",
+        "bookImage": "books-images/myst-nine.png"
+      }
+    ]
+  },
+
+  {
+    "Classics": [
+      {
+        "id": "1",
+        "bookTitle": "A Christmas Carol",
+        "bookAuthor": "Charles Dickens",
+        "bookImage": "books-images/classics-one.png"
+      },
+      {
+        "id": "2",
+        "bookTitle": "A Room With a View",
+        "bookAuthor": "E.M. Forster",
+        "bookImage": "books-images/classics-two.png"
+      },
+      {
+        "id": "3",
+        "bookTitle": "Alice in Wonderland",
+        "bookAuthor": "Lewis Carroll",
+        "bookImage": "books-images/classics-three.png"
+      },
+      {
+        "id": "4",
+        "bookTitle": "Around the World ln Eighty Days",
+        "bookAuthor": "Jules Venue",
+        "bookImage": "books-images/classics-four.png"
+      },
+      {
+        "id": "5",
+        "bookTitle": "My Antonia",
+        "bookAuthor": "Willa Cather",
+        "bookImage": "books-images/classics-five.png"
+      },
+      {
+        "id": "6",
+        "bookTitle": "Night and Day",
+        "bookAuthor": "Virginia Woolf",
+        "bookImage": "books-images/classics-six.png"
+      },
+      {
+        "id": "7",
+        "bookTitle": "Pride & Preudice",
+        "bookAuthor": "Jane Austen",
+        "bookImage": "books-images/classics-seven.png"
+      },
+      {
+        "id": "8",
+        "bookTitle": "War and Peace",
+        "bookAuthor": "Led Tolstoy",
+        "bookImage": "books-images/classics-eight.png"
+      },
+      {
+        "id": "9",
+        "bookTitle": "Under Western Eyes",
+        "bookAuthor": "Joseph Conrad",
+        "bookImage": "books-images/classics-nine.png"
+      }
+    ]
+  },
+  {
+    "Entrepreneur": [
+      {
+        "id": "1",
+        "bookTitle": " Buy Then Build",
+        "bookAuthor": "Walker Deibel",
+        "bookImage": "books-images/entre-one.png"
+      },
+      {
+        "id": "2",
+        "bookTitle": "Girl Code",
+        "bookAuthor": "Cara Alwill L.",
+        "bookImage": "books-images/entre-two.png"
+      },
+      {
+        "id": "3",
+        "bookTitle": "Rework",
+        "bookAuthor": "David H. & Jason F.",
+        "bookImage": "books-images/entre-three.png"
+      },
+      {
+        "id": "4",
+        "bookTitle": " Rich Dad Poor Dad",
+        "bookAuthor": "Robert T Kiyosaki",
+        "bookImage": "books-images/entre-four.png"
+      },
+      {
+        "id": "5",
+        "bookTitle": " The 4-Hour Work Week",
+        "bookAuthor": "Tim Ferriss",
+        "bookImage": "books-images/entre-five.png"
+      },
+      {
+        "id": "6",
+        "bookTitle": "How Innovation Works",
+        "bookAuthor": "Matt Ridley",
+        "bookImage": "books-images/entre-six.png"
+      },
+      {
+        "id": "7",
+        "bookTitle": "The Art Of The Start",
+        "bookAuthor": "Guy Kawasaki",
+        "bookImage": "books-images/entre-seven.png"
+      },
+      {
+        "id": "8",
+        "bookTitle": "Good to Great",
+        "bookAuthor": "Jim Collins",
+        "bookImage": "books-images/entre-eight.png"
+      },
+      {
+        "id": "9",
+        "bookTitle": "The Startup Owner’s Manual",
+        "bookAuthor": "Steve B. & Bob D.",
+        "bookImage": "books-images/entre-nine.png"
+      }
+    ]
+  },
+  {
+    "Christian": [
+      {
+        "id": "1",
+        "bookTitle": "Along The Rio",
+        "bookAuthor": "Tracie Peterson",
+        "bookImage": "books-images/christ-one.png"
+      },
+      {
+        "id": "2",
+        "bookTitle": "A Stranger's Game",
+        "bookAuthor": "Colleen Coble",
+        "bookImage": "books-images/christ-two.png"
+      },
+      {
+        "id": "3",
+        "bookTitle": "Catching The Wind",
+        "bookAuthor": "Melanie Dobson",
+        "bookImage": "books-images/christ-three.png"
+      },
+      {
+        "id": "4",
+        "bookTitle": "Crossfire",
+        "bookAuthor": "Lynette Eason",
+        "bookImage": "books-images/christ-four.png"
+      },
+      {
+        "id": "5",
+        "bookTitle": " Mulberry Hollow",
+        "bookAuthor": "Denise Hunter",
+        "bookImage": "books-images/christ-five.png"
+      },
+      {
+        "id": "6",
+        "bookTitle": "Forgiving Paris",
+        "bookAuthor": "Karen Kingsbury",
+        "bookImage": "books-images/christ-six.png"
+      },
+      {
+        "id": "7",
+        "bookTitle": "Love Comes Softly",
+        "bookAuthor": "Janette Oke",
+        "bookImage": "books-images/christ-seven.png"
+      },
+      {
+        "id": "8",
+        "bookTitle": "Blended Quilt",
+        "bookAuthor": "Wanda & Brunstetter",
+        "bookImage": "books-images/christ-eight.png"
+      },
+      {
+        "id": "9",
+        "bookTitle": "The Chisholm Trail Bride",
+        "bookAuthor": "Kathleen Y'Barbo",
+        "bookImage": "books-images/christ-nine.png"
+      }
+    ]
+  },
+
+  {
+    "Romance": [
+      {
+        "id": "1",
+        "bookTitle": "Act Your Age, Eve Brown",
+        "bookAuthor": "Talia Hibbert",
+        "bookImage": "books-images/roma-one.png"
+      },
+      {
+        "id": "2",
+        "bookTitle": "Call Me By My Name",
+        "bookAuthor": "Andre Aciman",
+        "bookImage": "books-images/roma-two.png"
+      },
+      {
+        "id": "3",
+        "bookTitle": "Red White & Royal Blue",
+        "bookAuthor": "Casey McQuiston",
+        "bookImage": "books-images/roma-three.png"
+      },
+      {
+        "id": "4",
+        "bookTitle": "Love on the Brain",
+        "bookAuthor": "Ali Hazelwood",
+        "bookImage": "books-images/roma-four.png"
+      },
+      {
+        "id": "5",
+        "bookTitle": " My Antonia",
+        "bookAuthor": "Willa Cather",
+        "bookImage": "books-images/roma-five.png"
+      },
+      {
+        "id": "6",
+        "bookTitle": "Seven Days In June",
+        "bookAuthor": "Tia Williams",
+        "bookImage": "books-images/roma-six.png"
+      },
+      {
+        "id": "7",
+        "bookTitle": "Pride & Preudice",
+        "bookAuthor": "Jane Austen",
+        "bookImage": "books-images/roma-seven.png"
+      },
+      {
+        "id": "8",
+        "bookTitle": "The Notebook",
+        "bookAuthor": "Nicholas Sparks",
+        "bookImage": "books-images/roma-eight.png"
+      },
+      {
+        "id": "9",
+        "bookTitle": "The Seven Love Deception",
+        "bookAuthor": "Elena Armas",
+        "bookImage": "books-images/roma-nine.png"
+      }
+    ]
+  },
+
+  {
+    "Fiction": [
+      {
+        "id": "1",
+        "bookTitle": "Freshwater",
+        "bookAuthor": "Akwaeke Emezi",
+        "bookImage": "books-images/fict-one.png"
+      },
+      {
+        "id": "2",
+        "bookTitle": "Half of a Yellow Sun",
+        "bookAuthor": "Chimamanda Adiche",
+        "bookImage": "books-images/fict-two.png"
+      },
+      {
+        "id": "3",
+        "bookTitle": "I Do Not Come To You By Chance",
+        "bookAuthor": "Adaobi Nwaubani",
+        "bookImage": "books-images/fict-three.png"
+      },
+      {
+        "id": "4",
+        "bookTitle": "On Black Sisters' Street",
+        "bookAuthor": "Chika Unigwe",
+        "bookImage": "books-images/fict-four.png"
+      },
+      {
+        "id": "5",
+        "bookTitle": "Things Fall Apart",
+        "bookAuthor": "Chinua Achebe",
+        "bookImage": "books-images/fict-five.png"
+      },
+      {
+        "id": "6",
+        "bookTitle": "1984",
+        "bookAuthor": "George Orwell",
+        "bookImage": "books-images/fict-six.png"
+      },
+      {
+        "id": "7",
+        "bookTitle": "The Kite Runner",
+        "bookAuthor": "Khaled Hosseini",
+        "bookImage": "books-images/fict-seven.png"
+      },
+      {
+        "id": "8",
+        "bookTitle": "Fairy Tale",
+        "bookAuthor": "Stephen King",
+        "bookImage": "books-images/fict-eight.png"
+      },
+      {
+        "id": "9",
+        "bookTitle": "To Kill A Mocking Bird",
+        "bookAuthor": "Harper Lee",
+        "bookImage": "books-images/fict-nine.png"
+      }
+    ]
+  },
+
+  {
+    "Mystery": [
+      {
+        "id": "1",
+        "bookTitle": "The Maid",
+        "bookAuthor": "Nita Prose",
+        "bookImage": "books-images/myst-one.png"
+      },
+      {
+        "id": "2",
+        "bookTitle": "All Good People Here",
+        "bookAuthor": "Ashley Flowers",
+        "bookImage": "books-images/myst-two.png"
+      },
+      {
+        "id": "3",
+        "bookTitle": "The It Girl",
+        "bookAuthor": "Ruth Ware",
+        "bookImage": "books-images/myst-three.png"
+      },
+      {
+        "id": "4",
+        "bookTitle": "Bluebird, Bluebird",
+        "bookAuthor": "Attica Locke",
+        "bookImage": "books-images/myst-four.png"
+      },
+      {
+        "id": "5",
+        "bookTitle": "The Da Vinci Code",
+        "bookAuthor": "Dan Brown",
+        "bookImage": "books-images/myst-five.png"
+      },
+      {
+        "id": "6",
+        "bookTitle": "The Big Sleep",
+        "bookAuthor": "Raymond Chandler",
+        "bookImage": "books-images/myst-six.png"
+      },
+      {
+        "id": "7",
+        "bookTitle": "The Guest List",
+        "bookAuthor": "Lucu Foley",
+        "bookImage": "books-images/myst-seven.png"
+      },
+      {
+        "id": "8",
+        "bookTitle": "What She Found",
+        "bookAuthor": "Robert Dugoni",
+        "bookImage": "books-images/myst-eight.png"
+      },
+      {
+        "id": "9",
+        "bookTitle": "Case Histories",
+        "bookAuthor": "Kate Atkinson",
+        "bookImage": "books-images/myst-nine.png"
+      }
+    ]
+  }
+]
