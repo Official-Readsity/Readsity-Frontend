@@ -69,11 +69,11 @@
     color: #FFFFFF;
     padding: .5em 1.5em;
     /* width: 162px; */
-    background: #421956;
+    background: #D151B7;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .cta .signUp:hover{
-    color: #421956;
+    color: #D151B7;
     background: #FFFFFF;
     border: 1px solid #A35EC3;
 
@@ -89,7 +89,7 @@
 }
 .cta .signIn:hover{
     color: #FFFFFF;
-    background: #421956;
+    background: #D151B7;
 }
 
 .action_button {
@@ -105,7 +105,7 @@
 .hamburger svg{
     height: 2rem;
     margin-right: 1rem;
-    color:#421956;
+    color:#D151B7;
     transition: transform .1s;
 }
 .hamburger svg:hover{

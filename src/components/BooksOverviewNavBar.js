@@ -4,6 +4,7 @@ import ReadsityLogo from "../assets/readsitynav.png";
 import CartIcon from "../assets/cart.png";
 import SearchIcon from "../assets/fluent_book-search-24-filled (3).png";
 import WishListIcon from "../assets/wishList1.png";
+import { NavLink } from "react-router-dom";
 
 function BooksOverviewNavBar() {
   return (
@@ -11,7 +12,9 @@ function BooksOverviewNavBar() {
       <div className="book_overview_navbar">
         <div className="book_overview_logo_search">
           <div>
+            <NavLink to="/">
             <img src={ReadsityLogo} alt="" />
+          </NavLink>
           </div>
           <div>
             <form action="" className="book_search_form">
