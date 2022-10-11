@@ -19,24 +19,36 @@
   font-size: 20px;
 }
 
-.book_overview_text {
-  margin: 50px 0 0 50px;
-  color: #d151b7;
-  font-family: "Helvetica";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-}
-
-.book_browseCategories {
-  margin: 50px 0 0 50px;
+.book_browseCategories_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #d151b7;
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
+  /* border: 1px solid red; */
+}
+
+.book_browseCategories {
+  width: 80%;
+  margin: 40px 0;
+  /* border: 1px solid black; */
+}
+
+.book_overview_text {
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .book_view-all {
   font-size: 20px;
+}
+
+.book_browseCategories_card {
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
 }

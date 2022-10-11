@@ -687,47 +687,47 @@
       {
         "id": "1",
         "bookCategory": "FICTION",
-        "bookImage": "books-images/myst-nine.png"
+        "categoryImage": "books-images/myst-nine.png"
       },
       {
         "id": "2",
         "bookCategory": "MYSTERY",
-        "bookImage": "books-images/myst-nine.png"
+        "categoryImage": "books-images/myst-nine.png"
       },
       {
         "id": "3",
         "bookCategory": "FANTASY",
-        "bookImage": "books-images/myst-nine.png"
+        "categoryImage": "books-images/myst-nine.png"
       },
       {
         "id": "4",
         "bookCategory": "HUMOUR",
-        "bookImage": "books-images/myst-nine.png"
+        "categoryImage": "books-images/myst-nine.png"
       },
       {
         "id": "5",
         "bookCategory": "CLASSICS",
-        "bookImage": "books-images/myst-nine.png"
+        "categoryImage": "books-images/myst-nine.png"
       },
       {
         "id": "6",
         "bookCategory": "ROMANCE",
-        "bookImage": "books-images/myst-nine.png"
+        "categoryImage": "books-images/myst-nine.png"
       },
       {
         "id": "7",
         "bookCategory": "HORROR",
-        "bookImage": "books-images/myst-nine.png"
+        "categoryImage": "books-images/myst-nine.png"
       },
       {
         "id": "8",
         "bookCategory": "CHRISTAIN FICTION",
-        "bookImage": "books-images/myst-nine.png"
+        "categoryImage": "books-images/myst-nine.png"
       },
       {
         "id": "9",
         "bookCategory": "ENTREPRENEURSHIP",
-        "bookImage": "books-images/myst-nine.png"
+        "categoryImage": "books-images/myst-nine.png"
       }
     ]
   }
