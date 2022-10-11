@@ -16,7 +16,7 @@ function BookCategoryCard({ bookCategory }) {
               />
             </div>
             <div className="bookCategory_text">
-              <p className="bookCategory_text__">{bookCat.bookCategory}</p>
+              <p>{bookCat.bookCategory}</p>
             </div>
           </div>
         );

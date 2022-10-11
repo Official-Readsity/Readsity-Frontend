@@ -52,3 +52,25 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 3rem;
 }
+
+.book_bestSeller_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d151b7;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.book_bestSellers {
+  width: 80%;
+  margin: 40px 0;
+}
+
+.book_bestsellers_card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+}

@@ -6,21 +6,23 @@ import { useState, useEffect } from "react";
 import TestData from "../data/test.json";
 // import BookCard from "../components/BookCard";
 import BookCategoryCard from "../components/BookCategoryCard";
-
+import BookBestSellersCard from "../components/BookBestSellersCard";
 const Books = () => {
   // const [booksData, setBooksData] = useState(BooksJsonFile);
   const [testData, setTestData] = useState(TestData);
   const [allBooks, setAllBooks] = useState([]);
   const [bookCategory, setBookCategory] = useState([]);
+  const [bookBestSellers, setBookBestSellers] = useState([]);
 
   useEffect(() => {
     // setBooksData(BooksJsonFile);
     setTestData(TestData);
     setAllBooks(testData[0].allBooks);
     setBookCategory(testData[7].BookCategories);
+    setBookBestSellers(testData[8].BestSellers);
   }, [testData, allBooks]);
 
-  console.log(allBooks);
+  // console.log(bookBestSellers);
 
   // const classicsBooks = testData[0].allBooks[0].Classics;
   // const entrepreneurshipBooks = testData[0].allBooks[1].Entrepreneur;
@@ -49,6 +51,17 @@ const Books = () => {
           <br />
           <div className="book_browseCategories_card">
             <BookCategoryCard bookCategory={bookCategory} />
+          </div>
+        </div>
+      </div>
+      <div className="book_bestSeller_container">
+        <div className="book_bestSellers">
+          <p>
+            BEST SELLER
+            <span className="book_view-all"> ( View all )</span>
+          </p>
+          <div className="book_bestsellers_card">
+            <BookBestSellersCard bookBestSeller={bookBestSellers} />
           </div>
         </div>
       </div>

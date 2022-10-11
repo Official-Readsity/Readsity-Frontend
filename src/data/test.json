@@ -730,5 +730,27 @@
         "categoryImage": "category-images/entrepreneurship.png"
       }
     ]
+  },
+  {
+    "BestSellers": [
+      {
+        "id": "1",
+        "bookTitle": "Thinking,Fast and Slow ",
+        "bookAuthor": "Daniel Kahnwman",
+        "bookImage": "book-bestSellers-images/thinking,fast,slow.png"
+      },
+      {
+        "id": "2",
+        "bookTitle": "How Innovation Works",
+        "bookAuthor": "Matt Ridley",
+        "bookImage": "book-bestSellers-images/how innovation work.png"
+      },
+      {
+        "id": "3",
+        "bookTitle": "Beautiful Resistance",
+        "bookAuthor": "Jon Tyson",
+        "bookImage": "book-bestSellers-images/beautiful resistance.png"
+      }
+    ]
   }
 ]

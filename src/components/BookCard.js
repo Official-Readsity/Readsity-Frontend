@@ -15,26 +15,15 @@ function BookCard({ data, books }) {
         {books &&
           books.map((book) => {
             return (
-              <div key={book.id}>
-                <div className="book_card">
-                  <div className="book_cover_image">
-                    <img src={book.bookImage} alt="" />
-                  </div>
-                  <p>{book.bookTitle}</p>
-                  <p>{book.bookAuthor}</p>
+              <div className="book_card" key={book.id}>
+                <div className="book_cover_image">
+                  <img src={book.bookImage} alt="" />
                 </div>
+                <p>{book.bookTitle}</p>
+                <p>{book.bookAuthor}</p>
               </div>
             );
           })}
-        {/* <div key={book.id}>
-          <div className="book_card">
-            <div className="book_cover_image">
-              <img src={book.bookImage} alt="" />
-            </div>
-            <p>{book.bookTitle}</p>
-            <p>{book.bookAuthor}</p>
-          </div>
-        </div> */}
       </div>
     </>
   );
