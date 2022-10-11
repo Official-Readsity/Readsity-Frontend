@@ -50,5 +50,5 @@
   /* border: 1px solid black; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 3rem;
 }

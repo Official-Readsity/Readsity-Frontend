@@ -15,7 +15,9 @@ function BookCategoryCard({ bookCategory }) {
                 className="bookCategory_img"
               />
             </div>
-            <p className="bookCategory_text">{bookCat.bookCategory}</p>
+            <div className="bookCategory_text">
+              <p className="bookCategory_text__">{bookCat.bookCategory}</p>
+            </div>
           </div>
         );
       })}
