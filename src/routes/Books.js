@@ -13,6 +13,7 @@ const Books = () => {
   const [allBooks, setAllBooks] = useState([]);
   const [bookCategory, setBookCategory] = useState([]);
   const [bookBestSellers, setBookBestSellers] = useState([]);
+  const [trendingBooks, setTrendingBooks] = useState([]);
 
   useEffect(() => {
     // setBooksData(BooksJsonFile);
@@ -20,9 +21,10 @@ const Books = () => {
     setAllBooks(testData[0].allBooks);
     setBookCategory(testData[7].BookCategories);
     setBookBestSellers(testData[8].BestSellers);
-  }, [testData, allBooks]);
+    setTrendingBooks(testData[9].TrendingBooks);
+  }, [testData, allBooks, trendingBooks]);
 
-  // console.log(bookBestSellers);
+  // console.log(trendingBooks);
 
   // const classicsBooks = testData[0].allBooks[0].Classics;
   // const entrepreneurshipBooks = testData[0].allBooks[1].Entrepreneur;
@@ -62,6 +64,18 @@ const Books = () => {
           </p>
           <div className="book_bestsellers_card">
             <BookBestSellersCard bookBestSeller={bookBestSellers} />
+          </div>
+        </div>
+      </div>
+
+      <div className="book_bestSeller_container">
+        <div className="book_bestSellers">
+          <p>
+            TRENDING BOOKS
+            <span className="book_view-all"> ( View all )</span>
+          </p>
+          <div className="book_bestsellers_card">
+            <BookBestSellersCard trendingBooks={trendingBooks} />
           </div>
         </div>
       </div>

@@ -752,5 +752,45 @@
         "bookImage": "book-bestSellers-images/beautiful resistance.png"
       }
     ]
+  },
+  {
+    "TrendingBooks": [
+      {
+        "id": "1",
+        "bookTitle": "Thinking,Fast and Slow ",
+        "bookAuthor": "Daniel Kahnwman",
+        "bookImage": "book-trendingBooks-images/thinking.png"
+      },
+      {
+        "id": "2",
+        "bookTitle": "Daredevils",
+        "bookAuthor": "Tk Eldridge",
+        "bookImage": "book-trendingBooks-images/daredevils.png"
+      },
+      {
+        "id": "3",
+        "bookTitle": "From Darkness into Love",
+        "bookAuthor": "Sophie Bartow",
+        "bookImage": "book-trendingBooks-images/from darkness into love.png"
+      },
+      {
+        "id": "4",
+        "bookTitle": "Back to Troy",
+        "bookAuthor": "Maki Matsui",
+        "bookImage": "book-trendingBooks-images/back to troy.png"
+      },
+      {
+        "id": "5",
+        "bookTitle": "The Old Man And The Sea",
+        "bookAuthor": "Ernest Hemingway",
+        "bookImage": "book-trendingBooks-images/the old man.png"
+      },
+      {
+        "id": "6",
+        "bookTitle": "Dead & Buried",
+        "bookAuthor": "Tk Eldridge",
+        "bookImage": "book-trendingBooks-images/dead & buried.png"
+      }
+    ]
   }
 ]
