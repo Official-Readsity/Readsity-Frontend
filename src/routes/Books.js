@@ -7,6 +7,9 @@ import TestData from "../data/test.json";
 // import BookCard from "../components/BookCard";
 import BookCategoryCard from "../components/BookCategoryCard";
 import BookBestSellersCard from "../components/BookBestSellersCard";
+import Newsletter from "../components/Newsletter";
+import Footer from "../components/Footer";
+
 const Books = () => {
   // const [booksData, setBooksData] = useState(BooksJsonFile);
   const [testData, setTestData] = useState(TestData);
@@ -93,6 +96,8 @@ const Books = () => {
           </div>
         </div>
       </div>
+      <Newsletter />
+      <Footer />
 
       {/* <div>
         <BookCard books={allBooks} />
