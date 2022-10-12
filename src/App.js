@@ -15,12 +15,12 @@ import RomanceBooksPage from "./routes/RomanceBooksPage";
 
 function App() {
   return (
-		<>
-			<Routes basename="/readsity">
-				<Route path="/" element={<Home />} />
-				<Route path="/Services" element={<Services />} />
-				<Route path="/Blogs" element={<Blogs />} />
-				<Route path="/Books" element={<Books />} />
+    <>
+      <Routes basename="/readsity">
+        <Route path="/" element={<Home />} />
+        <Route path="/Services" element={<Services />} />
+        <Route path="/Blogs" element={<Blogs />} />
+        <Route path="/Books" element={<Books />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Books/allbooks" element={<AllBooksPage />} />
         <Route path="/Books/classics" element={<ClassicsBooksPage />} />
@@ -32,14 +32,13 @@ function App() {
           path="/Books/entrepreneurship"
           element={<EntrepreneurshipBooksPage />}
         />
-        <Route path="/Books/fictionbooks" element={<FictionBooksPage />} />
+        <Route path="/Books/fiction" element={<FictionBooksPage />} />
         <Route path="/Books/horror" element={<HorrorBooksPage />} />
         <Route path="/Books/mystery" element={<MysteryBooksPage />} />
         <Route path="/Books/romance" element={<RomanceBooksPage />} />
-			</Routes>
-		</>
-	);
-    
+      </Routes>
+    </>
+  );
 }
 
 export default App;

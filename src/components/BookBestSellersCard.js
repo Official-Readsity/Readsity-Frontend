@@ -6,7 +6,6 @@ function BookBestSellersCard({
   trendingBooks,
   popularClassics,
 }) {
-  console.log(bookBestSeller);
   return (
     <>
       {bookBestSeller &&

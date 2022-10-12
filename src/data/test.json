@@ -687,47 +687,56 @@
       {
         "id": "1",
         "bookCategory": "FICTION",
-        "categoryImage": "category-images/historical fiction.png"
+        "categoryImage": "category-images/historical fiction.png",
+        "pathName": "/Books/fiction"
       },
       {
         "id": "2",
         "bookCategory": "MYSTERY",
-        "categoryImage": "category-images/mystery & thriller.png"
+        "categoryImage": "category-images/mystery & thriller.png",
+        "pathName": "/Books/mystery"
       },
       {
         "id": "3",
         "bookCategory": "FANTASY",
-        "categoryImage": "category-images/fantasy.png"
+        "categoryImage": "category-images/fantasy.png",
+        "pathName": "/Books/fantasy"
       },
       {
         "id": "4",
         "bookCategory": "HUMOUR",
-        "categoryImage": "category-images/humor.png"
+        "categoryImage": "category-images/humor.png",
+        "pathName": "/Books/humour"
       },
       {
         "id": "5",
         "bookCategory": "CLASSICS",
-        "categoryImage": "category-images/historic.png"
+        "categoryImage": "category-images/historic.png",
+        "pathName": "/Books/classics"
       },
       {
         "id": "6",
         "bookCategory": "ROMANCE",
-        "categoryImage": "category-images/romance.png"
+        "categoryImage": "category-images/romance.png",
+        "pathName": "/Books/romance"
       },
       {
         "id": "7",
         "bookCategory": "HORROR",
-        "categoryImage": "category-images/horror.png"
+        "categoryImage": "category-images/horror.png",
+        "pathName": "/Books/horror"
       },
       {
         "id": "8",
         "bookCategory": "CHRISTAIN FICTION",
-        "categoryImage": "category-images/christain.png"
+        "categoryImage": "category-images/christain.png",
+        "pathName": "/Books/christainfiction"
       },
       {
         "id": "9",
         "bookCategory": "ENTREPRENEURSHIP",
-        "categoryImage": "category-images/entrepreneurship.png"
+        "categoryImage": "category-images/entrepreneurship.png",
+        "pathName": "/Books/entrepreneurship"
       }
     ]
   },

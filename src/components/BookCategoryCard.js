@@ -2,7 +2,6 @@ import React from "react";
 import "./BookCategoryCard.css";
 
 function BookCategoryCard({ bookCategory }) {
-  console.log(bookCategory);
   return (
     <>
       {bookCategory.map((bookCat) => {

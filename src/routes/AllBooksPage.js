@@ -1,7 +1,12 @@
 import React from "react";
+import BooksInidualPageNavBar from "../components/BooksIndividualPageNavBar";
 
 function AllBooksPage() {
-  return <div>AllBooksPage</div>;
+  return (
+    <>
+      <BooksInidualPageNavBar />
+    </>
+  );
 }
 
 export default AllBooksPage;
