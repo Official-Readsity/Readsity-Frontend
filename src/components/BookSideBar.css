@@ -1,11 +1,11 @@
 .bookSideBar {
-  width: 22%;
+  width: auto;
   /* height: 100%; */
   font-family: "Cambria";
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 .bookSideBarList {

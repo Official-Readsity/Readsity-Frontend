@@ -1,0 +1,24 @@
+.BookCategoryDisplayNavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Cambria";
+  font-style: normal;
+  border: 1px solid black;
+  width: auto;
+  height: 50px;
+}
+
+.BookCategoryDisplayNavbar > p {
+  width: 30%;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.BookCategoryDisplayNavbar ul {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  font-size: 20px;
+  font-weight: 400;
+}

@@ -1,0 +1,19 @@
+.BookDisplay {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 40px auto 0 auto;
+  border: 1px solid blue;
+}
+
+.SideBarDisplay {
+  width: 25%;
+  height: auto;
+  border: 1px solid red;
+}
+
+.Cat-Book-Display {
+  width: 70%;
+  height: auto;
+  border: 1px solid red;
+}
