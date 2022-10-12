@@ -1,0 +1,29 @@
+.book_card_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  border: 1px solid purple;
+}
+
+.book_card {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: auto;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  border: 1px solid black;
+}
+
+.book_cover_image {
+  height: auto;
+  width: 250px;
+  border: 1px solid red;
+}

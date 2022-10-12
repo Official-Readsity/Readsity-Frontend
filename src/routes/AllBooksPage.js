@@ -1,7 +1,14 @@
 import React from "react";
+import BookSideBar from "../components/BookSideBar";
+import BooksInidualPageNavBar from "../components/BooksIndividualPageNavBar";
 
 function AllBooksPage() {
-  return <div>AllBooksPage</div>;
+  return (
+    <>
+      <BooksInidualPageNavBar />
+      <BookSideBar />
+    </>
+  );
 }
 
 export default AllBooksPage;

@@ -19,17 +19,44 @@
   font-size: 20px;
 }
 
-.book_overview_text {
-  margin: 50px 0 0 50px;
+.book_browseCategories_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #d151b7;
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 25px;
+  /* border: 1px solid red; */
 }
 
 .book_browseCategories {
-  margin: 50px 0 0 50px;
+  width: 80%;
+  margin: 40px 0;
+  /* border: 1px solid black; */
+}
+
+.book_overview_text {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.book_view-all {
+  font-size: 20px;
+}
+
+.book_browseCategories_card {
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+}
+
+.book_bestSeller_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #d151b7;
   font-family: "Helvetica";
   font-style: normal;
@@ -37,6 +64,13 @@
   font-size: 25px;
 }
 
-.book_view-all {
-  font-size: 20px;
+.book_bestSellers {
+  width: 80%;
+  margin: 40px 0;
+}
+
+.book_bestsellers_card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
 }

@@ -2,6 +2,7 @@ import React from "react";
 import "./BooksIndividualPageNavBar.css";
 import ReadsityLogo from "../assets/readsitynav.png";
 import SearchIcon from "../assets/fluent_book-search-24-filled (4).png";
+import { NavLink } from "react-router-dom";
 
 function BooksIndividualPageNavBar() {
   return (
@@ -9,7 +10,10 @@ function BooksIndividualPageNavBar() {
       <div className="book_individualpage_navbar">
         <div className="book_individualpage_logo_search">
           <div>
+            
+          <NavLink to="/">
             <img src={ReadsityLogo} alt="" />
+          </NavLink>
           </div>
         </div>
         <div className="book_individual_page_navlist">
