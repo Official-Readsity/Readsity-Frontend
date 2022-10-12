@@ -1,0 +1,27 @@
+.bookSideBar {
+  width: 22%;
+  /* height: 100%; */
+  font-family: "Cambria";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  /* border: 1px solid red; */
+}
+
+.bookSideBarList {
+  list-style: none;
+}
+
+.book_sidebar_row {
+  padding: 10px 0;
+  /* border: 1px solid black; */
+  cursor: pointer;
+}
+
+.bookSideBarList #BookSidebar--active {
+  color: #d151b7;
+}
+
+/* .book_sidebar_row:hover {
+  color: #d151b7;
+} */

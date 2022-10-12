@@ -6,7 +6,11 @@ function BookCategoryCard({ bookCategory }) {
     <>
       {bookCategory.map((bookCat) => {
         return (
-          <div className="bookCategory_image_text" key={bookCat.id}>
+          <div
+            className="bookCategory_image_text"
+            key={bookCat.id}
+            onClick={() => (window.location.pathname = bookCat.pathName)}
+          >
             <div className="bookCategory_image">
               <img
                 src={bookCat.categoryImage}
